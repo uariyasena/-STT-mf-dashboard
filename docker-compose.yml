@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mf-dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - JIRA_AUTH_TOKEN=${JIRA_AUTH_TOKEN}
+      - JIRA_USER_EMAIL=${JIRA_USER_EMAIL}
+    volumes:
+      - ./MF_prioritized_items.xlsx:/app/MF_prioritized_items.xlsx:ro
+      - ./config.yaml:/app/config.yaml:ro
+    restart: unless-stopped

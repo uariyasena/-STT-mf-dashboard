@@ -1,0 +1,17 @@
+jira:
+  cloud_id: "f74e7745-e8a3-4716-ad6f-19b24f194f0a"
+  base_url: "https://apexclearing.atlassian.net"
+  feature_tickets:
+    - ASC-14277  # Exchange Orders
+    - ASC-21778  # PIP/SWIP
+    - ASC-21779  # DRIP
+    - ASC-21783  # ROA/LOI
+
+dashboard:
+  title: "State Street MF - Executive Dashboard"
+  refresh_interval: 300  # 5 minutes
+  deadline: "2026-06-30"
+
+excel:
+  file_path: "../STT_MF_Prioritized_Items.xlsx"
+  sheet_name: "Prioritized Items"
