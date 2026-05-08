@@ -13,5 +13,5 @@ dashboard:
   deadline: "2026-06-30"
 
 excel:
-  file_path: "../STT_MF_Prioritized_Items.xlsx"
+  file_path: "STT_MF_Prioritized_Items.xlsx"
   sheet_name: "Prioritized Items"
